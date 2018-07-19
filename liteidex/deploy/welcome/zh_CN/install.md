@@ -101,7 +101,9 @@ LiteIDE源码位于<https://github.com/visualfc/liteide>上。需要使用Qt4/Qt
 	$ cd liteide/build
 	$ ./update_pkg.sh
 	$ ./build_linux.sh
-	$ ./deploy_linux_qt4.8_webkit.sh
+	$ cd ../liteidex
+        $ ./linux_deploy.sh 
+	
 
 ### Mac OS X / macOS
 
